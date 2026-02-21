@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NNgo.MainPage"
+             Title="">
+
+    <Grid>
+        
+        <Image 
+            Source="fon.png"
+            Aspect="AspectFill"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill" />
+
+        <StackLayout 
+        VerticalOptions="End"
+        HorizontalOptions="Center"
+        Padding="32"
+        Spacing="60">
+
+            <Button
+            Text="Прогуляемся?"
+            TextColor="#001EFE"
+            BackgroundColor="#FFFFFF"
+            FontSize="20"
+            FontAttributes="Bold"
+            WidthRequest="300"
+            HeightRequest="70"
+            CornerRadius="70" />
+
+    </StackLayout>
+    </Grid>
+
+</ContentPage>
