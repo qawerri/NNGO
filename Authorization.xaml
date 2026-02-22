@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NNgo.Authorization"
+             Title="">
+
+    <Grid>
+        <Image 
+            Source="fonauthorization.png"
+            Aspect="AspectFill"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill" />
+
+        <StackLayout 
+            VerticalOptions="Center"
+            Padding="32"
+            Spacing="30">
+
+            <Button
+                Text="Зарегистрироваться"
+                TextColor="#FFFFFF"
+                BackgroundColor="#001EFE"
+                FontSize="18"
+                HorizontalOptions="Center"
+                WidthRequest="270"
+                HeightRequest="55"
+                CornerRadius="70"
+                Margin="0, 350, 0, 10" />
+
+            <Button
+                Text="Уже есть аккаунт"
+                TextColor="#001EFE"
+                FontAttributes="Bold"
+                BackgroundColor="#FFFFFF"
+                FontSize="18"
+                HorizontalOptions="Center"
+                WidthRequest="270"
+                HeightRequest="55"
+                CornerRadius="70"
+                BorderColor="#0066FF"
+                BorderWidth="2"
+                Margin="0, 20, 0, -80" />
+
+        </StackLayout>
+    </Grid>
+    
+    
+    
+</ContentPage>

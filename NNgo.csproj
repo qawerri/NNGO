@@ -68,4 +68,16 @@
 	  <Folder Include="Img\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Authorization.xaml.cs">
+	    <DependentUpon>Authorization.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Authorization.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
